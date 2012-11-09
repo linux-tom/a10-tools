@@ -111,3 +111,5 @@ SUBJECT="A10 Build - ${blddate} - ${bldresult}"
 mail -s "$SUBJECT" "$ppl2mail" < ${bldmail}
 
 echo "Done"
+
+bldhwpack wits_evb
